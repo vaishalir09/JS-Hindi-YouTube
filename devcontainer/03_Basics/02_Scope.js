@@ -60,8 +60,9 @@ function addone(num){
 }
 
 
-addTwo(5)// in this case gives a error because function hold in a variable
+//addTwo(5)// in this case gives a error because function hold in a variable
 
 const addTwo = function(num){
   return num + 2
 }
+addTwo(5);
